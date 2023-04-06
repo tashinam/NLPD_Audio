@@ -6,15 +6,10 @@ layers for wavelet transformations.
 # License: new BSD
 
 # import fourier as fourier
-import conv as conv_utils
-import pyramid_filters as pyr_filts
-import divisive_normalisation as expert_divisive_normalisation
+from utils import conv as conv_utils
 import torch.nn.functional as F
 import torch.nn as nn
 import torch
-from typing import List, Union
-
-import math
 
 import numpy as np
 np.set_printoptions(precision=2)  # TODO: remove
