@@ -1,4 +1,5 @@
 /data
 /media
 /venv
+/tensorboard
 .idea
